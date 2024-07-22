@@ -115,5 +115,10 @@ namespace Stego
                 panel1.Controls.Add(windowPanel);
             }
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
+            Form1 form = new Form1();
+            form.ShowDialog();
+        }
     }
 }
